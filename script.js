@@ -7,7 +7,7 @@ setTimeout(function(){
             var counter = 0;
             setInterval(function(){
                    txt = "You pressed OK!";
-                    elems = document.getElementsByClassName('cardactions-action cardactions-action--like')
+                    elems = document.getElementsByClassName("likes-pill-button-inner")
                     for(var i = 0; i< elems.length; i++) {
                         if ( !elems[i].classList.contains("liked") ){
                           counter++;
